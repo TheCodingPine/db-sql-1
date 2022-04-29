@@ -11,3 +11,6 @@
 
 - selezionare tutti i corsi di laurea magistrae
 > SELECT * FROM degrees WHERE level = 'magistrale'  // prende solo ('), non (")
+
+- slezionare tutti gli studenti che hanno come nome Marco
+> SELECT * FROM students WHERE name ='Marco' //stesso principio
