@@ -9,3 +9,5 @@
 - seleziona tutti i capi di ogni dipartimento
 > SELECT head_of_department FROM department // same
 
+- selezionare tutti i corsi di laurea magistrae
+> SELECT * FROM degrees WHERE
