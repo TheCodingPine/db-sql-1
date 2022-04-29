@@ -26,3 +26,6 @@
 
 -8 Selezionare tutti i corsi(insegnamenti)  che non hanno un sito web 
 > SELECT * FROM courses WHERE website IS NULL // non (= NULL) ma IS NULL
+
+-9 Selezionare tutti gli insegnanti che hanno un numero di telefono
+> SELECT * FROM teachers WHERE phone IS NOT NULL  //uguale
