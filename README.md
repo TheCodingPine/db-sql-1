@@ -20,3 +20,6 @@
 
 - 6 selezionare tutti i corsi che valgono più di 10 cfu o meno di 5 cfu
 > SELECT * FROM courses WHERE cfu > 10 OR cfu < 5 // condizione a OR b
+
+- 7 Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso
+> SELECT * FROM courses WHERE year = 1 AND period = 'I semestre'  //operatore AND
