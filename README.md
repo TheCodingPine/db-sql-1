@@ -10,4 +10,4 @@
 > SELECT head_of_department FROM department // same
 
 - selezionare tutti i corsi di laurea magistrae
-> SELECT * FROM degrees WHERE
+> SELECT * FROM degrees WHERE level = 'magistrale'  // prende solo ('), non (")
