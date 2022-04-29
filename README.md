@@ -23,3 +23,6 @@
 
 - 7 Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso
 > SELECT * FROM courses WHERE year = 1 AND period = 'I semestre'  //operatore AND
+
+-8 Selezionare tutti i corsi(insegnamenti)  che non hanno un sito web 
+> SELECT * FROM courses WHERE website IS NULL // non (= NULL) ma IS NULL
